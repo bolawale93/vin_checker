@@ -1,0 +1,93 @@
+{
+  "_notice": "DEVELOPMENT SAMPLE DATA. These records are fictitious and exist only to demonstrate the application. They must never be treated as real or verified vehicle history.",
+  "vehicles": {
+    "2T1BURHE4FC000101": {
+      "specs": { "make": "Toyota", "model": "Corolla", "year": "2015", "trim": "LE", "bodyType": "Sedan, 4-door", "engine": "1.8L I4 petrol", "fuelType": "Petrol", "transmission": "CVT automatic", "driveType": "FWD", "colour": "Silver", "doors": "4" },
+      "accidents": [
+        { "date": "2019-06-14", "severity": "Moderate", "description": "Front-end collision; airbags did not deploy", "location": "Sample City", "reference": "SAMPLE-ACC-1001" }
+      ],
+      "statusRecords": [],
+      "ownership": [
+        { "sequence": 1, "startDate": "2015-03-02", "endDate": "2018-08-19", "purchaseDate": "2015-03-02", "ownerType": "Private", "region": "Sample Region A", "odometer": "0 km" },
+        { "sequence": 2, "startDate": "2018-08-20", "endDate": "2022-01-10", "purchaseDate": "2018-08-20", "ownerType": "Private", "region": "Sample Region B", "odometer": "61,200 km" },
+        { "sequence": 3, "startDate": "2022-01-11", "endDate": null, "purchaseDate": "2022-01-11", "ownerType": "Fleet", "region": "Sample Region B", "odometer": "98,450 km" }
+      ],
+      "maintenance": [
+        { "date": "2016-03-10", "type": "Service", "description": "Scheduled 15,000 km service", "odometer": "15,040 km", "facility": "Sample Motors" },
+        { "date": "2019-07-02", "type": "Repair", "description": "Front bumper, bonnet and radiator replaced after collision", "odometer": "70,310 km", "facility": "Sample Body Shop" },
+        { "date": "2023-02-21", "type": "Inspection", "description": "Annual roadworthiness inspection", "result": "Pass", "odometer": "112,800 km", "facility": "Sample Inspection Centre" }
+      ]
+    },
+    "1HGCV1F36JA000202": {
+      "specs": { "make": "Honda", "model": "Accord", "year": "2018", "trim": "Sport", "bodyType": "Sedan, 4-door", "engine": "1.5L I4 turbo petrol", "fuelType": "Petrol", "transmission": "CVT automatic", "driveType": "FWD", "colour": "Black", "doors": "4" },
+      "accidents": [],
+      "statusRecords": [
+        { "type": "Theft", "date": "2023-04-03", "description": "Reported stolen by registered owner", "jurisdiction": "Sample Police Service", "reference": "SAMPLE-THEFT-2202" },
+        { "type": "Recovery", "date": "2023-05-18", "description": "Vehicle recovered, minor interior damage", "jurisdiction": "Sample Police Service", "reference": "SAMPLE-REC-2202" }
+      ],
+      "ownership": [
+        { "sequence": 1, "startDate": "2018-01-15", "endDate": null, "purchaseDate": "2018-01-15", "ownerType": "Private", "region": "Sample Region C", "odometer": "12 km" }
+      ],
+      "maintenance": [
+        { "date": "2019-01-20", "type": "Service", "description": "Oil and filter change", "odometer": "18,200 km", "facility": "Sample Honda Dealer" }
+      ]
+    },
+    "1FTFW1EF2CF000303": {
+      "specs": { "make": "Ford", "model": "F-150", "year": "2012", "trim": "XLT SuperCrew", "bodyType": "Pickup, crew cab", "engine": "5.0L V8 petrol", "fuelType": "Petrol", "transmission": "6-speed automatic", "driveType": "4WD", "colour": "Blue", "doors": "4" },
+      "accidents": [
+        { "date": "2020-11-02", "severity": "Severe", "description": "Rollover; structural damage to cab and frame", "location": "Sample Highway 7", "reference": "SAMPLE-ACC-3303" }
+      ],
+      "statusRecords": [
+        { "type": "Write-off", "date": "2020-11-30", "description": "Declared a total loss by insurer", "jurisdiction": "Sample Insurance Co.", "reference": "SAMPLE-WO-3303" },
+        { "type": "Salvage", "date": "2021-01-12", "description": "Salvage title issued", "jurisdiction": "Sample Licensing Authority", "reference": "SAMPLE-SAL-3303" }
+      ],
+      "ownership": [
+        { "sequence": 1, "startDate": "2012-05-01", "endDate": "2016-09-30", "purchaseDate": "2012-05-01", "ownerType": "Commercial", "region": "Sample Region D", "odometer": "0 km" },
+        { "sequence": 2, "startDate": "2016-10-01", "endDate": "2021-01-12", "purchaseDate": "2016-10-01", "ownerType": "Private", "region": "Sample Region D", "odometer": "142,000 km" }
+      ],
+      "maintenance": []
+    },
+    "5NPD84LFXLH000404": {
+      "specs": { "make": "Hyundai", "model": "Elantra", "year": "2020", "trim": "SEL", "bodyType": "Sedan, 4-door", "engine": "2.0L I4 petrol", "fuelType": "Petrol", "transmission": "IVT automatic", "driveType": "FWD", "colour": "White", "doors": "4" },
+      "accidents": [],
+      "statusRecords": [],
+      "ownership": [
+        { "sequence": 1, "startDate": "2020-02-11", "endDate": null, "purchaseDate": "2020-02-11", "ownerType": "Government fleet", "region": "Sample Region A", "odometer": "8 km" }
+      ],
+      "maintenance": [
+        { "date": "2021-02-09", "type": "Service", "description": "First annual service", "odometer": "14,900 km", "facility": "Sample Fleet Depot" },
+        { "date": "2022-02-15", "type": "Service", "description": "Second annual service; brake pads replaced", "odometer": "30,120 km", "facility": "Sample Fleet Depot" },
+        { "date": "2023-02-17", "type": "Inspection", "description": "Fleet safety inspection", "result": "Pass", "odometer": "44,800 km", "facility": "Sample Fleet Depot" }
+      ]
+    },
+    "WDDWF4KB3GR000505": {
+      "specs": { "make": "Mercedes-Benz", "model": "C 300", "year": "2016", "trim": "Sedan", "bodyType": "Sedan, 4-door", "engine": "2.0L I4 turbo petrol", "fuelType": "Petrol", "transmission": "7-speed automatic", "driveType": "RWD", "colour": "Grey", "doors": "4" },
+      "accidents": [],
+      "statusRecords": [
+        { "type": "Theft", "date": "2024-09-21", "description": "Reported stolen; no recovery recorded", "jurisdiction": "Sample Police Service", "reference": "SAMPLE-THEFT-5505" }
+      ],
+      "ownership": [
+        { "sequence": 1, "startDate": "2016-06-01", "endDate": "2019-06-01", "purchaseDate": "2016-06-01", "ownerType": "Lease", "region": "Sample Region E", "odometer": "0 km" },
+        { "sequence": 2, "startDate": "2019-06-02", "endDate": null, "purchaseDate": "2019-06-02", "ownerType": "Private", "region": "Sample Region E", "odometer": "54,000 km" }
+      ],
+      "maintenance": []
+    },
+    "JN1AZ4EHXDM000606": {
+      "_simulateTransientFailure": true,
+      "specs": { "make": "Nissan", "model": "370Z", "year": "2013", "trim": "Touring", "bodyType": "Coupe, 2-door", "engine": "3.7L V6 petrol", "fuelType": "Petrol", "transmission": "7-speed automatic", "driveType": "RWD", "colour": "Red", "doors": "2" },
+      "accidents": [],
+      "statusRecords": [],
+      "ownership": [
+        { "sequence": 1, "startDate": "2013-04-20", "endDate": null, "purchaseDate": "2013-04-20", "ownerType": "Private", "region": "Sample Region F", "odometer": "5 km" }
+      ],
+      "maintenance": []
+    },
+    "JTDKN3DUXA0000808": {
+      "specs": { "make": "Toyota", "model": "Prius", "year": "2010", "trim": "II", "bodyType": "Hatchback, 5-door", "engine": "1.8L I4 hybrid", "fuelType": "Hybrid (petrol/electric)", "transmission": "eCVT", "driveType": "FWD", "colour": "Green", "doors": "5" },
+      "accidents": [],
+      "statusRecords": [],
+      "ownership": [],
+      "maintenance": []
+    }
+  }
+}

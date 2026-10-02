@@ -1,0 +1,72 @@
+{
+  "vin": "1VXBR12EXCP901214",
+  "id": "00000000000002",
+  "date": "2018-03-02 09:47:20 PST",
+  "attributes": {
+    "vin": "1VXBR12EXCP901214",
+    "year": "2005",
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "CE",
+    "engine": "1.8L L4 DOHC 16V",
+    "style": "Sedan (4-Door)",
+    "type": "PASSENGER CAR",
+    "made_in": "JAPAN",
+    "steering_type": "R&P",
+    "anti-brake_system": "4-Wheel ABS",
+    "overall_height": "58.50 Inches",
+    "overall_length": "178.30 Inches",
+    "overall_width": "66.90 Inches",
+    "standard_seating": "5",
+    "highway_mileage": "38 - 41 miles/gallon",
+    "city_mileage": "30 - 32 miles/gallon"
+  },
+  "titles": [
+    { "date": "2011-08-31", "state": "WA", "vin": "1VXBR12EXCP901214", "meter": "59396", "meter_unit": "M", "current": "true" }
+  ],
+  "jsi": [
+    {
+      "date": "2007-10-25", "record_type": "Junk And Salvage", "brander_code": "P000001", "brander_name": "Insurance Salvage, Inc.",
+      "brander_city": "Milwaukee", "brander_state": "WI", "brander_email": "", "brander_phone": "5556478921",
+      "vehicle_disposition": "SOLD", "intended_for_export": "NO"
+    }
+  ],
+  "lien": [
+    { "record_type": "Lien", "vin": "1VXBR12EXCP901214", "date": "2015-05-23", "agency": "Loan Agency, Inc." }
+  ],
+  "thefts": [
+    {
+      "vin": "1VXBR12EXCP901214", "date": "2014-11-28", "theft_status": "Inactive", "theft_reported_state": "NJ",
+      "report_id": "9L003768767", "vehicle_year": "05", "vehicle_make": "TOYOTA", "date_of_theft": "2014-11-28",
+      "date_of_recovery": "2015-04-15", "record_type": "Theft Recovery", "source_name": "National Insurance Crime Bureau",
+      "source_phone": "8004476282", "source_website": "www.nicb.org", "source_city": "Des Plaines", "source_state": "IL",
+      "source_zip": "60018", "source": "nicb"
+    }
+  ],
+  "accidents": [
+    {
+      "vin": "1VXBR12EXCP901214", "date": "2015-02-08", "type": "accident", "report_id": "170839", "vehicle_year": "2005",
+      "vehicle_make": "TOYOTA", "vehicle_style": "4 DOOR SEDAN", "manner_of_collision": "REAR END",
+      "source_name": "Crash Data Source, Inc.", "source_phone": "7689271872", "source_website": "crashdatasource-inc.com",
+      "source_city": "Los Angeles", "source_state": "CA", "source_zip": "98001", "source": "cds_crash"
+    }
+  ],
+  "salvage": [
+    {
+      "vin": "1VXBR12EXCP901214", "date": "2015-08-30", "type": "salvage", "listing_id": "475661892", "location": "WA - SEATTLE",
+      "primary_damage": "REAR END", "secondary_damage": "FRONT END", "odometer": "24301.0 mi (ACTUAL)",
+      "sale_document": "WA - SALVAGE CERTIFICATE", "exterior_color": "CHARCOAL"
+    }
+  ],
+  "sale": [
+    {
+      "vin": "1VXBR12EXCP901214", "date": "2014-12-02", "type": "sale", "listing_price": "$8,988", "vehicle_color": "Charcoal",
+      "seller_type": "Dealer", "seller_name": "Lee Toyota", "seller_city": "MIAMI", "seller_state": "FL", "seller_zip": "33101"
+    }
+  ],
+  "checks": [
+    { "brand_code": "11", "brander_type": "State", "brander_code": "NY", "brander_name": "NEW YORK", "date": "2015-02-10" }
+  ],
+  "success": true,
+  "error": ""
+}
